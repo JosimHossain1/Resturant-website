@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/css/bootstrap.min.css" />
+
+ <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  
+<!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light h-100 bg-black">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="image/logo2.png" alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars text-white"></i></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto me-4">
+          <li class="nav-item">
+            <a class="nav-link active text-warning" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="#">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="#">GALLERY</a>
+          </li>
+          
+        </ul>
+        <a href="" class="btn btn-outline-warning">BOOK A TABLE</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="image-bg-setup">
+    <div class="overlay">
+      <div class="hero  d-flex justify-content-center align-items-center">
+        <div class="wrap ">
+          <h1 class="text-center text-white">Enjot The Best <br> Meal Ever With Us</h1>
+          <p class="text-center w-75 mx-auto yellow-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, optio repellat distinctio placeat iure adipisci.</p>
+          <div class="home-btn text-center">
+            <a href="" class="btn btn-warning btnBg ">BOOK A TABLE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Resturant Section -->
+
+  <section id="resturant">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <h4 class="res-secon-d style-text font-kristi">ABOUT US</h4>
+          <h1 class="style-bottom-text">RASTURANT</h1>
+          <p class="py-3 mt-2 textsecondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium officiis voluptas debitis dolores, rem numquam.</p>
+          <a href="" class="btn btnBg">BOOK A TABLE</a>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <div class="pt-5">
+            <p class="res-second text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium officiis voluptas debitis dolores, rem numquam.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <div class="play-video mx-auto text-center videos" id="videoPlay">
+            <img src="image/video-image.png"  style="cursor: pointer;" alt="">
+            <i class="fa-solid fa-circle-play video-icon"style="cursor: pointer;"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="row resrow">
+        <div class="col-md-2 mt-4">
+          <div class="overlap">
+            <img src="image/video-section-1.png" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text">Vegetable</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 mt-4">
+          <div class="overlap">
+            <img src="image/video-section-2.png" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text">meat meal</div>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="col-md-2 mt-4">
+          <div class="overlap">
+            <img src="image/video-section-3.png" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text">cheese</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 mt-4">
+          <div class="overlap">
+            <img src="image/video-section-4.png" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text">Prawn curry</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Book A Table -->
+
+  <section id="book-a-table" class="image-bg-setup">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h4 class="style-text font-kristi">RESERVE</h4>
+            <h1 class="style-bottom-text">BOOK A TABLE</h1>
+          </div>
+          <div class="col-md-4">
+            <div class="wraper d-flex justify-content-center align-items-center">
+              <div class="data me-5">
+                <h4>SET DATE:</h4>
+                <div class="d-flex">
+                  <h1>13</h1>
+                  <select name="" id="" class="text-white bg-transparent" style="border:none;" class="ms-5">
+                    <option value="">Aug</option>
+                  </select>
+                </div>
+              </div>
+              <div class="data">
+                <h4>GUESTS:</h4>
+                <div class="d-flex">
+                  <h1>1</h1>
+                  <div class="upDown-icon ms-4 mt-2">
+                    <i class="fa-solid fa-angle-up d-block" id="up"></i>
+                    <i class="fa-solid fa-angle-down" id="down"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="mx-auto text-center mt-3">
+              <a href="" class="btn ms-5 btn-warning btnBg ms-5">BOOK A TABLE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gellary -->
+
+  <section id="gellary" class="py-5">
+    <div class="container">
+      <div class="row">
+        <h2 class="style-text text-center mt-1 font-kristi">Best Menus</h2>
+        <h1 class="text-center style-bottom-text mb-5">Gellary</h1>
+
+        <div class="image-wrapper row">
+          <div class="col-md-4">
+            <img src="image/G1.png" class="img" alt="">
+            <img src="image/g6.png" class="img"  alt="">
+          </div>
+          
+          <div class="col-md-4">
+            <img src="image/g2.png" class="img"  alt="">
+            <img src="image/g7.png" class="img"  alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="image/g3.png" class="img"  alt="">
+            <div class="d-flex">
+              <img src="image/g4.png" class="img"  alt="">
+              <img src="image/g5.png" class="img" class="mx-2"  alt="">
+            </div>
+            <img src="image/g8.png" class="img"  alt="">
+          </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="image-bg-setup">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-3  my-5">
+            <h4>STAY TUNED</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="flex icon justify-content-center align-items-center">
+              <i class="fa-brands fa-pinterest"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-5 my-4" >
+            <img class="text-center mb-4" src="image/logo2.png" class=" mb-4" alt="Footer-Logo">
+            <h4>info@ruedesiam.com <br> <br> +12 546 987 233</h4>
+          </div>
+          <div class="col-sm-12 col-md-3 my-4">
+            <form>
+              <h4 class="text-white mb-4">NEWSLETTER</h5>
+                <div class="input-group">
+                  <input type="email" class="form-control bg-transparent text-white" placeholder="Enter your email">
+                  <button class="btn bg-white" type="submit"><i class="fa-brands fa-telegram"></i></button>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+    <!-- PopUp Box -->
+
+    <div class="popupBox" onclick="closeBtn()">
+      <div class="whiteBG whiteDown">
+          <img class="outputImg" alt="" >
+          <iframe  width="560" height="315" class="none EmbetVideo" src="https://www.youtube.com/embed/L6yX6Oxy_J8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+  </div>
+  
+
+<!-- Bootstrap JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/js/bootstrap.min.js"></script>
+
+<!-- Custom JS -->
+<script src="resturant.js"></script>
+</body>
+</html>
