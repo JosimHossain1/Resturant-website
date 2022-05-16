@@ -7,6 +7,22 @@ const video = document.getElementById('videoPlay')
 const image = document.querySelectorAll('.img')
 
 
+selector('#up').addEventListener('click', function(){
+    const countText =  selector('#count').innerText;
+    selector('#count').innerHTML = parseInt(countText) + 1
+    
+})
+
+selector('#down').addEventListener('click', function(){
+    const countText =  selector('#count').innerText;
+    if(countText < 2){
+        selector('#count').innerHTML = 1;
+    }else{
+        selector('#count').innerHTML = parseInt(countText) -1;
+    }
+    
+})
+
 video.addEventListener('click', function(){
     selector('.popupBox').classList.add('active')
     selector('.whiteBG').classList.add('whiteDown')
